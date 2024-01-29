@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main{
+    background: black;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 0.5rem;
+}
+.nav{
+    /* background: rgb(10, 10, 10); */
+    height: 47rem;
+    width: 20rem;
+    /* display: inline-block;     */
+    border-radius: 7px;
+    padding-top: 0.1rem;
+    background: #080808;
+    margin-top: 0.5rem;
+    
+    
+}
+
+.list{
+    background-color: #161515;
+    border-radius: 7px;
+    display:flex;
+    margin-top: 0.56rem;
+    margin-left: 0.45rem;
+    margin-right: 0.45rem;
+    /* padding: 1rem 1rem; */
+    height: 7rem;
+    
+}
+
+.list li{
+    margin-top: 1.45rem;
+    font-size: large;
+    font-weight: 600;
+    padding-left: 0.45rem;
+    list-style: none;
+}
+
+.list i{
+    text-decoration: none;
+    color: white;
+    margin-left: 0.86rem;
+    cursor: pointer;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0.75rem;    
+}
+
+.secondbutton{
+    opacity: 0.5;
+}
+
+.downlist{
+    display: flex;
+    background: #1a1717;
+    border-radius: 7px;
+    margin-top: 0.56rem;
+    margin-left: 0.45rem;
+    margin-right: 0.45rem;
+    height: 3.5rem;
+}
+.tlb1{
+    /* margin-right: 13rem; */
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 1.23rem; */
+    /* margin-top: 1.00rem; */    
+}
+
+.lb button{
+    color: white;
+    background: none;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    border: 0;
+    margin-left: 0.50rem;
+    opacity: 0.5;    
+}
+
+.lb i{
+    color: white;
+    margin-left: 1rem;
+    opacity: 0.5;
+    font-size: 1.5rem;
+}
+
+
+.rb{
+    margin-top: 1.12rem;
+    margin-right: 1.50rem;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rb i{
+    color: white;
+    font-size: 1.12rem;
+    opacity: 0.5;
+}
+
+.downcards{
+    height: 8.5rem;
+    width: 19.10rem;
+    background: #1a1717;
+    margin-top: 0.56rem;
+    margin-left: 0.45rem;
+    margin-right: 0.45rem;
+    border-radius: 7px;
+}
+
+.navcard{
+    color: white;
+    padding: 0.1rem;
+
+}
+.navcard p{
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+}
+
+.dncbutton{
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    font-size: rem;
+    border: 0;
+    padding: 0.5rem 1rem;
+}
+
+.main-contant{
+    /* background: #131111; */
+    border-radius:rem;
+    margin-top: 0.56rem;
+    margin-left: 0.45rem;
+    border-radius: 7px;
+    height: 51.45rem;
+    width: 97rem;
+
+
+}
+
+.up-nav{
+    position: sticky;
+    margin-top: 0.56rem;
+    /* margin-left: rem; */
+    /* margin-right: 0.45rem; */
+    border-radius: 7px;
+    background: #080808;
+    height: 4rem;
+    width: 97rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+
+}
+
+.nav-left-icon i{
+    font-size: 1.55rem;
+    margin-left: 1.50rem;
+    background: black;
+    color: white;
+    border-radius: 1rem;
+    width: 1.58rem;
+    height: 1.85rem;
+    opacity: 0.5;
+    
+}
+
+.s-up-icon-position {
+    padding-left: 0.5rem;
+    padding-top: 0.25rem;
+}
+
+.nav-right-options{
+    margin-right: rem;
+    display: flex;
+    font-size: 1.25rem;
+    align-items: center;
+
+
+}
+
+.nav-right-options button{
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+    background: white;
+    color: black;
+    height: 2rem;
+    padding: 0.35rem;
+    font-weight: 500;
+    
+    
+
+
+}
+
+.btn-shape{
+    width: 2rem;
+}
+
+.download-icon-option{
+    display: flex;
+    align-items: center;
+    background: black;
+    color: white;
+    margin-right: 0.25rem;
+    border-radius: 1rem;
+    padding-left: 0.25rem;
+
+
+}
+
+.download-icon-option button{
+    color: white;
+    background: none;
+    border: none;
+    margin-inline-start: 4px;
+}
+.nav-right-options .nrb-colour{
+    background: black;
+    color: white;
+}
+
+.section{
+    background: #080808;
+    height: 3rem;
+    font-weight: 100;
+    width: 96rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    
+}
+
+.section span{
+    background: black;
+    color: white;
+    font-weight: 700;
+    opacity: 0.8;
+
+
+}
+
+.section .all{
+    margin-left: 1rem;
+    height: 1.7rem;
+    width: 2.2rem;
+    padding-left: 0.6rem;
+    padding-top: 0.5rem;
+    border-radius: 1rem;
+}
+
+.section .music{
+    margin-left: 1rem;
+    height: 1.7rem;
+    width: 3.5rem;
+    padding-left: 0.4rem;
+    padding-top: 0.5rem;
+    border-radius: 1rem;
+}
+
+.main-card-contants .main-h2{
+    /* background: burlywood; */
+    color: white;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    font-size: small;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.main-card-contants{
+    overflow-y: auto;
+    background: #080808;
+    height:39rem;
+    border-radius: 7px;
+}
+
+.cards-first-colume{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.card{
+    background-color: #1a1717;
+    height: 15.5rem;
+    width: 11rem;
+    border-radius: 9px;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+
+}
+
+.cards-first-colume .card .card-image {
+    /* background-image: url(images/download\ \(1\).jpg); */
+    background-size: cover;
+    height: 10rem;
+    padding-top: 1rem;
+    border-radius: 8px;    
+}
+
+.cards-first-colume .card .p1{
+    margin-top: 1rem;
+    font-weight: 600;
+    color: white;
+    opacity: 0.9;
+}
+
+.cards-first-colume .card .p2{
+    color: white;
+    font-weight: 200;
+    font-size: small;
+    margin-top: 0.25rem;
+
+}
+.img-1{
+    background-image: url(images/download\ \(1\).jpg);
+}
+.img-2{
+    background-image: url(images/download\ \(2\).jpg);
+}
+.img-3{
+    background-image: url(images/download\ \(3\).jpg);
+}
+.img-4{
+    background-image: url(images/download\ \(4\).jpg);
+}
+.img-5{
+    background-image: url(images/download\(5\).jpg);
+}
+.img-6{
+    background-image: url(images/download\(6\).jpg);
+}
+
+.show{
+    /* background: wheat; */
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}    
+
+.show a{
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.h2-2nd a{
+    margin-left: rem;
+    font-weight: 800;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+.dn-a{
+    margin-right: 0;
+    font-size: smaller;
+    font-weight: 700;
+    opacity: 0.8;
+
+}
